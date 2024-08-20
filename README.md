@@ -1,1 +1,1 @@
-# MolGraph
+# Graph2Token
