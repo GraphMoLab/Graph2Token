@@ -11,6 +11,7 @@
 import nltk
 
 nltk.download('wordnet')
+```
 # Data
 Already being integration. Coming soon !
 # Run
