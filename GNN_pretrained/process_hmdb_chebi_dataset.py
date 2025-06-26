@@ -1,10 +1,11 @@
 import numpy as np
 import pandas as pd
 import torch
-from ogb.utils.features import atom_to_feature_vector, bond_to_feature_vector
 from rdkit import Chem
 from torch_geometric.data import Data
 from tqdm import tqdm
+
+from model.molecule_gnn.features import atom_to_feature_vector, bond_to_feature_vector
 
 
 def smi_to_graph_data_obj_simple(smiles):
