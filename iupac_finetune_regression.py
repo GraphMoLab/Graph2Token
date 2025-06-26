@@ -24,9 +24,6 @@ def main(args):
     if args.init_checkpoint:
         model = QA_Trainer.load_from_checkpoint(args.init_checkpoint, strict=False, args=args)
         print(f"loaded init checkpoint from {args.init_checkpoint}")
-    elif args.finetune_path:
-        model = QA_Trainer(args)
-        print(f"initialized model from {args.opt_model}")
     elif args.stage2_path:
         model = QA_Trainer(args)
         ckpt = torch.load(args.stage2_path, map_location='cpu')
@@ -90,7 +87,7 @@ def main(args):
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--filename', type=str, default="gap")
+    parser.add_argument('--filename', type=str, default="debug")
     parser.add_argument('--seed', type=int, default=42, help='random seed')
     parser.add_argument('--mode', type=str, default='ft')
     parser.add_argument('--strategy_name', type=str, default='deepspeed')
