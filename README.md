@@ -12,6 +12,8 @@ import nltk
 
 nltk.download('wordnet')
 ```
-## Run the code in \GNN_pretrained to get the graph-text data and pretrain the GNN encoder.
-## Run
-Coming soon !
+## Stage 1
+Run the code in \GNN_pretrained to get the graph-text data and pretrain the GNN encoder.
+## Stage 2
+* Download the LLama3-8B checkpoint from Huggingface.
+* Set your LLM model and pretrained gnn model paths.
