@@ -12,7 +12,6 @@ import nltk
 
 nltk.download('wordnet')
 ```
-# Data
-Already being integration. Coming soon !
-# Run
+## Run the code in \GNN_pretrained to get the graph-text data and pretrain the GNN encoder.
+## Run
 Coming soon !
