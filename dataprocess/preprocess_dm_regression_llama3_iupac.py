@@ -137,7 +137,7 @@ class ProcessDatasets(LightningDataModule):
         self.num_workers = num_workers
         self.text_max_len = text_max_len
         self.train_dataset = CheBIDataset(root + f'/train.txt', text_max_len)
-        self.val_dataset = CheBIDataset(root + '/valid_lies.txt', text_max_len)
+        self.val_dataset = CheBIDataset(root + '/valid.txt', text_max_len)
         self.test_dataset = CheBIDataset(root + '/test.txt', text_max_len)
         self.init_tokenizer(tokenizer)
 
