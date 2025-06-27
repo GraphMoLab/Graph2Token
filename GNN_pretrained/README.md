@@ -20,7 +20,7 @@ python extract_description.py
 ```bash
 python process_hmdb_chebi_dataset.py
 ```
-* Note: all above should set the right file path.
+* Note: all above should set the your file path.
 
 
 * Unzip qm9.zip under the `./data/` directory.
@@ -33,7 +33,7 @@ text_tokenizer = AutoTokenizer.from_pretrained(bert_name, cache_dir=pretrained_S
 text_model = AutoModel.from_pretrained(bert_name, cache_dir=pretrained_SciBERT_folder).to(device)
 ```
 Download GraphMVP model, check this [repo](https://github.com/chao1224/GraphMVP), and the checkpoints on this [link](https://drive.google.com/drive/folders/1uPsBiQF3bfeCAXSDd4JfyXiTh-qxYfu6).
-Put it at the right file path and Then run:
+Put it at the your file path and then run:
 ```bash
 python pretrain.py
 ```
