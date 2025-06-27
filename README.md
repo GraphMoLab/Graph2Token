@@ -19,5 +19,5 @@ Run the code in \GNN_pretrained to get the graph-text data and pretrain the GNN 
 * Set your LLM model, pretrained gnn and mol2latent model paths.
 * For classification task, run iupac_finetune_classification.py.
 * For regression task, run iupac_finetune_regression.py.
-* For few-shot finetuning and evaluation, set the right data path and rerun.
+* For few-shot finetuning and evaluation, set --stage2_path and the data path, then rerun.
 
