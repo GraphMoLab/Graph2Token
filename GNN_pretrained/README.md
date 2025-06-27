@@ -22,9 +22,6 @@ python process_hmdb_chebi_dataset.py
 ```
 * Note: all above should set the your file path.
 
-
-* Unzip qm9.zip under the `./data/` directory.
-
 ## Train GNN
 Download SciBERT model from Huggingface. This can be done by simplying calling the following for SciBERT:
 ```bash
