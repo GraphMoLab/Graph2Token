@@ -20,4 +20,5 @@ Run the code in \GNN_pretrained to get the graph-text data and pretrain the GNN 
 * For classification task, run iupac_finetune_classification.py.
 * For regression task, run iupac_finetune_regression.py.
 * For few-shot finetuning and evaluation, set --stage2_path and the data path, then rerun.
-Thanks for the contributions of - [@MolCA](https://github.com/acharkq/MolCA) and - [@GIMLET](https://github.com/zhao-ht/GIMLET).
+
+Thanks for the contributions of [@MolCA](https://github.com/acharkq/MolCA) and [@GIMLET](https://github.com/zhao-ht/GIMLET).
